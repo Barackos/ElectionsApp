@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">שגיא בקלפי</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_home">Home</string>
+
+    //TextViews
+    <string name="tv_welcome">ברוך הבא, %1$s</string>
+
+    //Sign In
+    <string name="Register_SignIn">התחברות</string>
+    <string name="Register_VerifyYourPhoneNumber">אימות מספר טלפון נייד</string>
+    <string name="Register_VerifyYourPhoneNumber_Info">יישלח אליך מסרון עם קוד לצורך אימות מספר הטלפון שלך. אנא הכנס את קוד המדינה ואת מספר הטלפון</string>
+    <string name="Register_VerifyYourPhoneNumber_CarrierCharges">ייתכן חיוב בגין שליחת המסרון</string>
+    <string name="Register_PrivacyLink">אמנת פרטיות</string>
+    <string name="Privacy_Link">https://electionscan-loudvy.firebaseapp.com/privacy_policy.html</string>
+    <string name="Register_Dialog_Confirm_Title">אימות הקלדה</string>
+    <string name="Register_Dialog_Confirm_Text"><![CDATA[הודעת אסמס תישלח למספר:<br /><b>%1$s</b><br /><br />האם להמשיך, או שברצונך לשנות את המספר?]]></string>
+    <string name="Register_SMS_TypeCode"><![CDATA[קוד האימות נשלח אליך ל:<br /><b dir="ltr">%1$s</b><br /><br />אנא הזנ/י את קוד האימות:]]></string>
+    <string name="Register_SMS_TypeCode_Hint">קוד אימות</string>
+    <string name="Register_SMS_TypeCode_Invalid">קוד לא תקין</string>
+    <string name="Register_Verify_Button">אימות</string>
+    <string name="Register_Resend_Code">שלח שוב</string>
+    <string name="Register_Wrong_Number">מספר שגוי?</string>
+    <string name="Verified_Phone_Registering">מספר הטלפון אומת. מבצע רישום&#8230;</string>
+    <string name="Select_Country">בחר/י מדינה</string>
+    <string name="Invalid_Phone">מספר טלפון לא תקין</string>
+    <string name="VerificationCode_Incorrect">קוד האימות שגוי</string>
+
+    //ActionsStatus
+    <string name="TaskStatus_Updating">Updating&#8230;</string>
+    <string name="TaskStatus_PleaseWait">Please wait</string>
+    <string name="TaskStatus_Removing">Removing&#8230;</string>
+    <string name="TaskStatus_Compressing">Compressing&#8230;</string>
+    <string name="TaskStatus_Uploading">Uploading&#8230;</string>
+
+    //ActionsResult
+    <string name="Error">Error</string>
+    <string name="Error_TryAgainLater">Please try again later</string>
+    <string name="Error_WithDescription">Error: %1$s</string>
+    <string name="Saved">Saved</string>
+    <string name="Saved_Error">Error: didn\'t save</string>
+    <string name="Removed">Removed</string>
+    <string name="Deleted">Deleted</string>
+    <string name="Added">Added</string>
+    <string name="Updated">Updated</string>
+    <string name="Uploaded">Uploaded</string>
+    <string name="Failed">Failed</string>
+    <string name="Failed_TryAgain">Failed. Please try again</string>
+    <string name="Success">Success</string>
+    <string name="Cleaned">Cleaned</string>
+
+    //Roles
+    <string name="Role_Observer">משקיף</string>
+    <string name="Role_Bunch">אשכול</string>
+    <string name="Role_Chief">מנהל</string>
+    <string-array name="list_roles">
+        <item>@string/Role_Observer</item>
+        <item>@string/Role_Bunch</item>
+        <item>@string/Role_Chief</item>
+    </string-array>
+    <string name="title_activity_votes">VotesActivity</string>
+    <string name="title_activity_kalpi_list">KalpiList</string>
+</resources>
